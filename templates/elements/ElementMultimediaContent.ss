@@ -6,5 +6,5 @@
 <% include _HTML %>
 
 <% with ElementLink %>
-  <% include ElementLink_button %>
+  <% include _Button %>
 <% end_with %>

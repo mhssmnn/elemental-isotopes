@@ -1,4 +1,7 @@
 <?php
+// Allows inline editing of a has_one relation. Similar
+// to how the Image upload works. Shamelessly ripped off
+// https://github.com/stevie-mayhew/hasoneedit
 class HasOneInlineEditExtension extends DataExtension {
   const separator = '::';
   public function onBeforeWrite() {

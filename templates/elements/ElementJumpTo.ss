@@ -4,8 +4,8 @@
     <nav class="jump-to">
       <ul>
       <% loop $JumpTo %>
-        <% if $JumpToTitle && not Empty %>
-        <li><a href="#section{$ID}">$JumpToTitle</a></li>
+        <% if not $HideTitle %>
+        <li><a href="#section{$ID}">$Title</a></li>
         <% end_if %>
       <% end_loop %>
       </ul>
