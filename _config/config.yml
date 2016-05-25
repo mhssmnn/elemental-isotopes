@@ -1,0 +1,7 @@
+BaseElement:
+  extensions:
+    - IsoBaseElementExtension
+    - HasOneInlineEditExtension
+ElementChildrenList:
+  extensions:
+    - ElementContentExtension
